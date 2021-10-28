@@ -3,13 +3,13 @@
 
 以下、
 
-- Windows 11 Pro ver.21H2 (Version 10.0.22000.132)
-- Visual Studio 2019 Preview (Version 16.11.0 Preview 3.0)
-- .NET 5 (5.0.400-preview.21328.4)
+- Windows 11 Pro ver.21H2 (Version 10.0.22000.282)
+- Visual Studio 2019 Preview (Version 16.11.2)
+- .NET 5 (5.0.402)
 
 にて検証しています。
 
-(最終更新：2021年8月15日)
+(最終更新：2021年10月28日)
 
 ## 1. Visual Studio 2019をインストールする
 - Visual Studio 2019をインストールします。
@@ -48,11 +48,14 @@
 
 - 使用するボードをPCに接続し、デバイスマネージャーなどでポート番号を調べます。ESP32-WROOM-32の場合、UARTブリッジドライバが必要になりますので、事前にインストールしておきましょう。
 - ESP32-WROOM-32の場合は、以下のコマンドによってファームウェアを書き込めます。(xxには何かの数字が入ります)
+- ここのコマンドは良く変わるので、公式ドキュメントを参照して正しいものを実行してください。
   ```powershell
   nanoff --target ESP32_WROOM_32 --serialport COMxx --update
   ```
 - 正常に書き込めると、Device Explorerにボード名が表示されます。下記のどれかが表示されているはずです。
+  - ESP32
   - ESP32_WROOM_32
   - ESP32_WROOM_32_BLE
   - ESP32_WROOM_32_V3_BLE
+  - など...
 - 「F5」または「デバッグして実行」などで、テンプレートを実行します。デバッグ出力に「Hello from nanoFramework!」と表示されれば、正常に書き込みできています。
