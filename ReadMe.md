@@ -7,7 +7,7 @@
 - Samplesディレクトリか、[こちら](https://github.com/masi2k203/nF-ESP32-Sample/tree/master/Samples)
 
 ## 環境構築
-- .NET 5対応版は[こちら](https://github.com/masi2k203/nF-ESP32-Sample/tree/master/GettingStartedc)か、「Getting_Started」ディレクトリへどうぞ。
+- .NET 5対応版は[こちら](https://github.com/masi2k203/nF-ESP32-Sample/tree/master/GettingStarted)か、「Getting_Started」ディレクトリへどうぞ。
 - .NET Core 3.1版は、過去のnoteに記事があります。
 [環境構築(旧版)](https://note.com/ice8550/n/nc29312d23d17)
 
