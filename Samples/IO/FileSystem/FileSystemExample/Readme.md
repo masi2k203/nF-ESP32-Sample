@@ -16,7 +16,7 @@
 - ESP32の内部EEPROMは、nanoFrameworkではドライブレター:Iとなります。
 
 ## サンプルの実行結果 (Program.cs)
-```powershell
+```
 ===== System.IO.FileSystem Example =====
 
 ===== File create sample. =====
